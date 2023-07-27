@@ -31,7 +31,7 @@ public class New {
 
         /* Also parallelStream could be used to stream the data,
         which helps to spin multiple thread that helps to make the class run faster,
-        Its better to use it on filter */
+        It's better to use it on filter */
 
         Integer n = nu.stream().reduce(1, (c, e) -> c * e);
         System.out.println("nekwe");
